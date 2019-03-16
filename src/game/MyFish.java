@@ -44,7 +44,6 @@ public class MyFish extends GameObject{
 		}else{
 			g.drawImage(myFish_left, x, y, width, height, null);
 		}
-		
 		move();//每画一次就改变鱼的坐标
 	}
 
